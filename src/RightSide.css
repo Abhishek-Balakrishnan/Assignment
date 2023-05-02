@@ -11,3 +11,20 @@
 .nj1{
   padding: 4px;
 }
+#size{
+    font-size: 33px;
+}
+.position{
+    margin-left: 26px;
+    /* margin-top: 10%; */
+}
+#star{
+    color: red;
+    font-size:7px;
+}
+#color{
+    background-color: rgb(228, 225, 225);
+  }
+  #vv{
+    font-size: 15px;
+  }

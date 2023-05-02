@@ -2,3 +2,10 @@
     padding-right: 27px;
     font-size: larger;
 }
+.btn:focus, .btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  #color{
+    background-color: rgb(247, 243, 243);
+  }

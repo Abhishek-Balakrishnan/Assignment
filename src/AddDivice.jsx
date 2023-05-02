@@ -32,12 +32,12 @@ function AddDivice() {
       >
         <Modal.Header closeButton>
           <Modal.Title id="example-modal-sizes-title-lg">
-            Add Devices & Parameter
+          <i class="fa-solid fa-microchip me-2"></i>Add Devices & Parameter
           </Modal.Title>
         </Modal.Header>
         <Modal.Body> <div class="container ">
      <div class="row">
-    <div class="col-5"><label>Device Type</label><br />
+    <div class="col-5"><label>Device Type<i class="fa-solid fa-star-of-life"id='star'></i><i class="fa-solid fa-circle-info p-2"id='vv'></i></label><br />
       
       <select class="form-select" id="inputGroupSelect01">
   <option selected>Animater ToolKit</option>
@@ -46,7 +46,7 @@ function AddDivice() {
   <option value="3">Three</option>
   <br />
 </select><br />
-<label>Attach Device</label><br />
+<label>Attach Device<i class="fa-solid fa-star-of-life"id='star'></i><i class="fa-solid fa-circle-info p-2"id='vv'></i></label><br />
       
       <select class="form-select" id="inputGroupSelect01">
   <option selected>Antminer ToolKit(#AJ2930KP)</option>
@@ -54,7 +54,7 @@ function AddDivice() {
   <option value="2">Two</option>
   <option value="3">Three</option>
 </select><br />
-<label>Device Name</label><br />
+<label>Device Name<i class="fa-solid fa-star-of-life"id='star'></i><i class="fa-solid fa-circle-info p-2"id='vv'></i></label><br />
       
       <select class="form-select" id="inputGroupSelect01">
   <option selected>Antminer ToolKit(#AJ2930KP)</option>
@@ -62,12 +62,12 @@ function AddDivice() {
   <option value="2">Two</option>
   <option value="3">Three</option>
 </select><br />
-<label htmlFor="">Device ID</label>
+<label htmlFor="">Device ID<i class="fa-solid fa-star-of-life"id='star'></i></label>
 <br />
 
 <span class="input-group-text">AJ2930KP</span>
 <br />
-<label htmlFor="">Selected Parameters</label>
+<label htmlFor="">Selected Parameters<i class="fa-solid fa-circle-info p-2"id='vv'></i></label>
 <ul class="list-group">
   <li class="list-group-item d-flex justify-content-between align-items-center">
     Channel 1(#HJ91K)
